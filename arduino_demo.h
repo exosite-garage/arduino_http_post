@@ -1,4 +1,4 @@
-#define CIK "29f5b391ab72ad1f5c8602a83ad323909f3dd19d" // <-- FILL IN YOUR DEVICE CIK HERE!
+#define CIK "PUTYOURCIKHERE" // <-- FILL IN YOUR DEVICE CIK HERE!
 
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x00, 0x25, 0xF1};
 byte ip[] = { 192,168,10,201 };
