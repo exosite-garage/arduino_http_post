@@ -1,9 +1,9 @@
-#define CIK "PUTYOURCIKHERE" // <-- FILL IN YOUR DEVICE CIK HERE!
+#define CIK "PUTYOURCIKHERE"           // <-- FILL IN YOUR DEVICE CIK HERE (https://portals.exosite.com -> Add Device)!
 
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x00, 0x25, 0xF1};
-byte ip[] = { 192,168,10,201 };
-byte gateway[] = { 192,168,10,1 };	
-byte subnet[] = { 255, 255, 255, 0 };
+byte ip[] = { 192,168,10,201 };        // <-- FILL IN YOUR DEVICE IP ADDRESS HERE!
+byte gateway[] = { 192,168,10,1 };     // <-- FILL IN YOUR NETWORK GATEWAY IP ADDRESS HERE!	
+byte subnet[] = { 255, 255, 255, 0 };  // <-- FILL IN YOUR NETWORK SUBNET MASK HERE!
 byte server[] = { 173, 255, 209, 28 }; // m2.exosite.com
 Client client(server, 80); // Port 80 is default for HTTP
 
