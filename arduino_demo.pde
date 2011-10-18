@@ -3,12 +3,12 @@
 #include "arduino_demo.h"
 
 void setup() {
-  pinMode(8, OUTPUT); 
+  pinMode(7, OUTPUT); 
 }
 
 void loop() {
-  digitalWrite(8, !digitalRead(8));
+  digitalWrite(7, !digitalRead(7));
   sendToExosite(1,analogRead(A0));
-  sendToExosite(2,digitalRead(8));
+  sendToExosite(2,digitalRead(7));
   delay(1000);          
 }
