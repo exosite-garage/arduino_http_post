@@ -33,7 +33,7 @@ the code<br>
 
 7) Go to Tools->Serial Port and select the serial port your Arduino is connected to<br>
 
-8) Go to File->Upload to I/O BOard to upload the program<br>
+8) Go to File->Upload to I/O Board to upload the program<br>
 
 9) After "Done uploading" is displayed, go to https://portals.exosite.com to see
 your data in the cloud!<br>
